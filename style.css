@@ -1,0 +1,44 @@
+.tc-body {
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #cccccc;
+  border: #000 2px solid;
+  font-size: 24px;
+}
+
+.tc-body h1 {
+  width: 100%;
+}
+
+.tc {
+  float: left;
+  width: 48%;
+  padding: 5px;
+  background: #fff;
+}
+
+.tc-item:focus {
+  background: #cee4eb !important;
+  outline: none;
+}
+
+.tc-bar {
+  border: #000 1px solid;
+  margin-bottom: 10px;
+}
+
+.tc-space-primary, .tc-space-secondary {
+  border: #bde9ff 1px solid;
+}
+
+.tc-space-primary div, .tc-space-secondary div {
+  padding: 5px 0px;
+}
+
+.tc-space-primary div span, .tc-space-secondary div span {
+color: #999999;
+float: right;
+}
